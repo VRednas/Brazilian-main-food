@@ -1,0 +1,26 @@
+:root {
+   --bg-primary: #E3D9CA;
+   --bg-secondary: #596C68;
+   --primary: #95A792;
+   --secondary: #403F48;
+}
+
+body {
+   background-color: var(--bg-primary);
+   font-size: 14pt;
+   color: var(--secondary);
+}
+
+p {
+   text-align: justify;
+   text-justify: inter-word;
+}
+
+ul.dropdown-menu {
+   color: rgb(160, 0, 27);
+   background-color: var(--bg-primary);
+}
+
+nav.navbar {
+   background-color: var(--bg-secondary);
+}
