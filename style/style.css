@@ -1,14 +1,13 @@
 :root {
-   --bg-primary: #E3D9CA;
-   --bg-secondary: #596C68;
-   --primary: #95A792;
-   --secondary: #403F48;
+   --bg-primary: #f0eed9;
+   --bg-secondary: #3e553c;
+   --primary: #292929;
+   --secondary: #2e5e9c;
 }
 
 body {
    background-color: var(--bg-primary);
-   font-size: 14pt;
-   color: var(--secondary);
+   color: var(--primary);
 }
 
 p {
@@ -17,10 +16,30 @@ p {
 }
 
 ul.dropdown-menu {
-   color: rgb(160, 0, 27);
    background-color: var(--bg-primary);
 }
 
 nav.navbar {
    background-color: var(--bg-secondary);
+}
+
+.suggestions {
+   font-size: 38pt;
+}
+
+h1 {
+   color: var(--secondary);
+}
+
+h2 {
+   color: var(--secondary);
+   font-size: 20pt;
+}
+
+h4 {
+   color: var(--secondary);
+}
+
+h5 {
+   color: var(--secondary);
 }
