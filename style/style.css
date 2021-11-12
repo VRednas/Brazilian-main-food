@@ -1,13 +1,23 @@
+/* General */
 :root {
-   --bg-primary: #f0eed9;
-   --bg-secondary: #3e553c;
+   --bg-primary: #ffffff;
+   --bg-secondary: #707070;
    --primary: #292929;
-   --secondary: #2e5e9c;
+   --secondary: #338a22;
 }
 
 body {
    background-color: var(--bg-primary);
    color: var(--primary);
+   font-family: 'Roboto', sans-serif;
+}
+
+.row {
+   margin: 0;
+}
+
+.container {
+   padding: 70px 0;
 }
 
 p {
@@ -15,31 +25,9 @@ p {
    text-justify: inter-word;
 }
 
-ul.dropdown-menu {
-   background-color: var(--bg-primary);
-}
-
-nav.navbar {
-   background-color: var(--bg-secondary);
-}
-
-.suggestions {
-   font-size: 38pt;
-}
-
 h1 {
    color: var(--secondary);
 }
 
-h2 {
-   color: var(--secondary);
-   font-size: 20pt;
-}
+/* Navbar */
 
-h4 {
-   color: var(--secondary);
-}
-
-h5 {
-   color: var(--secondary);
-}
