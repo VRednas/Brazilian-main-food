@@ -1,14 +1,15 @@
 /* General */
 :root {
-   --bg-primary: #ffffff;
-   --bg-secondary: #707070;
-   --primary: #292929;
-   --secondary: #338a22;
+   --bg-primary: #f5f4e9;
+   --bg-secondary: #ffc400;
+   --primary: #ac7e02;
+   --secondary: #2a46a3;
+   --text-main: #585858;
 }
 
 body {
    background-color: var(--bg-primary);
-   color: var(--primary);
+   color: var(--text-main);
    font-family: 'Roboto', sans-serif;
 }
 
@@ -31,3 +32,40 @@ h1 {
 
 /* Navbar */
 
+header, .navbar {
+   background-color: var(--bg-secondary);
+}
+
+#nav-container {
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
+#logo {
+   padding-left: 0.6rem;
+   width: 60px;
+}
+
+.navbar-brand {
+   padding: 0;
+   color: var(--secondary);
+}
+
+.navbar-brand:hover {
+   color: var(--secondary);
+}
+
+#navbar-links a {
+   color: var(--secondary);
+}
+
+.navbar-nav > .active > a {
+   font-weight: bolder;
+   background-color: var(--bg-secondary);
+   border-radius: 8px;
+   filter: drop-shadow(2px 3px 3px #797878)
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+   padding: 1rem .8rem;
+}
