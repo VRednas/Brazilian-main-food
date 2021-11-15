@@ -11,6 +11,10 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <!-- Google Fonts - Caveat-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
    <!-- Project CSS Ref-->
    <link rel="stylesheet" href="style/style.css">
    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
@@ -25,17 +29,17 @@
                   src="img/apple-touch-icon.png"
                   alt="Logo Brazifood"
                   id="logo"
-                  class="d-inline-block align-text-top"
+                  class="d-inline-block"
                >Brazifood
             </a>
             <button
-               class="navbar-toggler"
+               class="navbar-toggler navbar-light"
                type="button"
-               data-toggle="collapse"
-               data-target="#navbar-links"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbar-links"
                aria-controls="navbar-links"
                aria-expanded="false"
-               aria-label="Toggle navigation">
+               aria-label="toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
             <div
@@ -53,11 +57,37 @@
          </nav>
       </div>
    </header>
-
-   <div id="home">
-      <div class="landing-text">
-         <h1>BRAZILIAN DAILY FOOD</h1>
-         <h3>Learn how to cook the most mainly Brazilian foods.</h3>
+   <div class="hero vh-100 d-flex align-items-center">
+      <div class="container">
+         <div class="row">
+            <div class="hero-text col-lg-7">  <!-- mx-auto e text-center dentro de class colocam o texto centralizado dentro do "hero"-->
+               <h1 class="display-2 text-white">Learn Brazilian Daily Food Recipes</h1>
+               <p class="text-white my-3">Learn here how to cook the most mainly Brazilian Food, the "PF", as known as "Prato Feito".</p>
+            </div>
+         </div>
       </div>
+   </div>
+   <section class="container">
+      <div class="row">
+         <div class="recipe-img d-flex col-lg-1">
+            <img src="img/rice-pexels-pnw-production-8251401.jpg" alt="Rice in a plate" loading="lazy">
+         <div class="recipe-card col-lg-1">
+               <h4>Brazilian rice recipe</h4>
+               <p>Learn how to cook the real Brazilian rice</p>
+         </div>
+         <div class="recipe-img d-flex col-lg-1">
+            <img src="img/rice-pexels-pnw-production-8251401.jpg" alt="Rice in a plate" loading="lazy">
+         <div class="recipe-card col-lg-1">
+               <h4>Brazilian rice recipe</h4>
+               <p>Learn how to cook the real Brazilian rice</p>
+         </div>
+         <div class="recipe-img d-flex col-lg-1">
+            <img src="img/rice-pexels-pnw-production-8251401.jpg" alt="Rice in a plate" loading="lazy">
+         <div class="recipe-card col-lg-1">
+               <h4>Brazilian rice recipe</h4>
+               <p>Learn how to cook the real Brazilian rice</p>
+         </div>
+      </div>
+   </section>
 </body>
 </html>
